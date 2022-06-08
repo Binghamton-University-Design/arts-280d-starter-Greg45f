@@ -7,8 +7,14 @@ body{
 color: #333333;
 }
 
-h1{
+h1#main-headline {  
     font-size:48px;
     color: green;
     font-weight: 800;
 }
+ 
+ /* Here we changed the font color of the title intro to CSS Lesson */
+
+ /* Next linked h1 to act as the main headline */
+
+ 
