@@ -12,9 +12,16 @@ h1#main-headline {
     color: green;
     font-weight: 800;
 }
- 
+  /* The h1# main-headline means that a identifer is defined. */
+  
  /* Here we changed the font color of the title intro to CSS Lesson */
 
  /* Next linked h1 to act as the main headline */
 
- 
+ h1.main-headline {  
+    font-size:48px;
+    color: red;
+    font-weight: 800;
+}
+
+ /* The h1.main-headline means that a class is defined. */
