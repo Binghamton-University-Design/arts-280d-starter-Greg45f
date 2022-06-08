@@ -45,7 +45,33 @@ P:last-child{
     color: blue;
 }
 
-/*p{ 
+*p{ 
     color: purple !important;
 
  }
+/* The function  color: purple !important; proioritzes the color purple even in set to a diffrent color in main html file*/
+
+
+
+
+ /* teirs of cascading styles
+Importance-
+
+1 transition 
+2!important
+3. animation
+4. normal 
+
+
+Origin 
+website 
+user 
+browser
+
+Secificty
+inline > id > class > type 
+
+position
+top to bottom
+
+*/
