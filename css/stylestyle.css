@@ -25,3 +25,27 @@ h1#main-headline {
 }
 
  /* The h1.main-headline means that a class is defined. */
+
+ /* The function below is called a group selector  */
+
+h1,h2,h3,h4{
+    margin:0;
+}
+
+/* doing this  function sqwishes everthing on the web page closer together 
+ h1,h2,h3,h4{
+    margin:0;
+}  */
+
+
+
+/* p last child do something with the last html paragraph block */
+
+P:last-child{
+    color: blue;
+}
+
+/*p{ 
+    color: purple !important;
+
+ }
