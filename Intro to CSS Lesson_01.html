@@ -8,26 +8,29 @@
 		<link rel="stylesheet" type="text/css" href="css/stylestyle.css">
 	<!-- Linked self closing link to stylesheet -->
 	<!-- href hypertext reference -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/stylestyle.css"> This is one way of linking to an outside stylesheet.  -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/stylestyle.css"> This is one way of linking to an  external  stylesheet.  -->
 
 
-<!-- This is the second way of making a  stylesheet -->
+<!-- This is the second way of making a  stylesheet it is called internal you use a style block -->
 <style type="text/css">
 	p:first-child{
-		color:purple;
+		color:orange;
 	}
 </style>
 	</head>
 
 	<body>
-<!--  comment here we have the text broken into diffrent subheaddings    -->
 
 
 	<h1 id="main-headline">  Intro to CSS Lesson</h1>
-	<! -- put h1 into id= main hedline like this <h1 id="main-headline">  to prioritize  having a head line in one spot only are unique should only be used one time on a page --- >
+	<!-- put h1 into id= main hedline like this <h1 id="main-headline"> try using once on page    -->
+
 	<h1 class="main-headline"> Another Headline</h1>
 	<h2>My Very nice subtitle</h2>
-	<h3>Another Headline Right Here</h3>
+
+	<!-- Inline style sheet  for <h3>   -->
+
+	<h3 style="font-size: 60px;">Another Headline Right Here</h3>
 	<h4>This is a even smaller header</h4>
 
 
@@ -36,7 +39,7 @@
 	<!-- <div> is content division  division  how we structure our layout  -->
 
 
-	<p>
+	<p style="color: pink;">
 		Lorem ipsum dolor sit amet.Sed ut perspiciatis unde omnis iste natus error <ee>New York Times</ee>sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia <strong>consequuntur </strong>magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
 	</p>
 	<!--  comment <strong> makes text bold  -->
