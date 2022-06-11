@@ -7,71 +7,8 @@ body{
 color: #333333;
 }
 
-h1#main-headline {  
-    font-size:48px;
-    color: green;
-    font-weight: 800;
+#wraper { 
+margin: 2em; auto;
+max-width: 960px ; 
+padding: 0 2em;
 }
-  /* The h1# main-headline means that a identifer is defined. */
-  
- /* Here we changed the font color of the title intro to CSS Lesson */
-
- /* Next linked h1 to act as the main headline */
-
- h1.main-headline {  
-    font-size:48px;
-    color: red;
-    font-weight: 800;
-}
-
- /* The h1.main-headline means that a class is defined. */
-
- /* The function below is called a group selector  */
-
-h1,h2,h3,h4{
-    margin:0;
-}
-
-/* doing this  function sqwishes everthing on the web page closer together 
- h1,h2,h3,h4{
-    margin:0;
-}  */
-
-
-
-/* p last child do something with the last html paragraph block */
-
-P:last-child{
-    color: blue;
-}
-
-*p{ 
-    color: purple !important;
-
- }
-/* The function  color: purple !important; proioritzes the color purple even in set to a diffrent color in main html file*/
-
-
-
-
- /* teirs of cascading styles
-Importance-
-
-1 transition 
-2!important
-3. animation
-4. normal 
-
-
-Origin 
-website 
-user 
-browser
-
-Secificty
-inline > id > class > type 
-
-position
-top to bottom
-
-*/
