@@ -1,60 +1,31 @@
-/*stylesheet*/
-
-/* Here is my nice comment */
-
 body{
- background-color: #green;
-color: #333333;
-font-size: 16px;
-font-family: 'Noto Sans JP', sans-serif;
+  background-color: gray;
+  color: black;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-
-font-family: 'Roboto', sans-serif;
 #wrapper { 
 margin: 2em; auto;
 max-width: 960px ; 
 padding: 0 2px;
 }
-/*
-margin-top: ;
-margin-bottom: ;
-margin-left: ;
-margin-right: ;
-This is simplifed in the next line */
 
-
-.artcle {
-    padding:20px 0 ;
-    background-color:#pink ;   
+.article{
+  padding: 20px 0;
+  background-color: #fff;
 }
 
-
-/* this should give me a 2 em margin on the top and bottom
-and auto margin on the left and right side */
-
-
-/*  box modle paddinge */
-
-
-/*  Then download an image put into images folder. 
-After you chose the image you want next you need to style it
- */
-
-img{
-   display: block; 
-   width: 100%;
-   height: auto;
-   margin: 20 px 0;
+h1, p { 
+   margin-left: 20px; 
+   margin-right: 20px;
+   }
+P{ 
+  font-weight: 300; 
+  line-height: 1.6
 }
-
-h1,p{ 
-margin-left: 20px; 
-margin-right: 20px;
-}
-
-/* width: 100%; will fill container you are in by 100 % */
 
 h1{
  font-family: 'Roboto', sans-serif;
+ font-weight: 900;
   margin-top: 0;  
 }
