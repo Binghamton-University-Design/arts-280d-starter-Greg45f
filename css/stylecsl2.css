@@ -1,13 +1,22 @@
 body{
-  background-color: gray;
+  background-color: #B5FFE1;
   color: black;
   font-size: 16px;
   font-family: 'Noto Sans JP', sans-serif;
+  background: url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #wrapper { 
-margin: 2em; auto;
+margin: 2em auto;
 max-width: 960px ; 
-padding: 0 2px;
+padding: 0 2em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .article{
