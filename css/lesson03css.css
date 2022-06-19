@@ -2,7 +2,7 @@
 
 /*Part one Box Model*/
 body{
-background-color: #202030;
+  background-color: #202030;
   color:#000;
   font-size: 16px;
   font-family: 'Noto Sans JP', sans-serif;
@@ -14,14 +14,14 @@ background-color: #202030;
 #wrapper { 
 margin: 2em auto;
 max-width: 960px ; 
-padding: 10px 20px;
+padding: 0 2em;
 }
 
 .article{
   position: relative;
   width: 900px;
   overflow: hidden;
-  padding: 40px 20px 20px 20px;
+  padding: 60px 20px 0;
   background-color: #fff;
 }
 
@@ -41,7 +41,7 @@ padding: 10px 20px;
 
 
 .masthead {
-  width: 840px;
+  width: 830px;
   border: solid black 3px;
   padding: 10px;
   margin: 20px;
@@ -50,10 +50,9 @@ padding: 10px 20px;
 
 /*Part two Sizing Units*/
 
-.half, .second-half {
-  	/* width: 50%; */;
-  	width: calc(50% - 40px);
-	padding: 20px;
+.half,.second-half {
+  /* width: 50% */;
+  width: cal(50% - 40px);
 }
 
 .half {
@@ -67,9 +66,8 @@ padding: 10px 20px;
 .em-size-box {
   width: 2em;
   height: 2em;
-  background-color: red !important;
+  background-color: orange !important;
 }
-
 
 .rem-size-box {
   width: 2rem;
@@ -79,15 +77,12 @@ padding: 10px 20px;
 }
 
 .new-font-size {
-  font-size: 70px;
+  font-size: 54px;
 }
 
 .vw-vh-demo {
-	background-color: purple !important;
-	width: 50vw;
-	height: 20vh;
+  background-color: purple;
+  width: 100vw;
+  height:100vh ;
 
 }
-
-
-/*Part two Sizing Units*/
