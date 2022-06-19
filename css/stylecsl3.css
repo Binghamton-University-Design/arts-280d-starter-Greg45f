@@ -14,14 +14,14 @@ background-color: #202030;
 #wrapper { 
 margin: 2em auto;
 max-width: 960px ; 
-padding: 0 20px;
+padding: 10px 20px;
 }
 
 .article{
   position: relative;
   width: 900px;
   overflow: hidden;
-  padding: 60px 0 20px 0;
+  padding: 40px 20px 20px 20px;
   background-color: #fff;
 }
 
