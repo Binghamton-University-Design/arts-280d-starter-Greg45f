@@ -153,20 +153,8 @@
 
 
 
+/* My grid below   */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*MY GRID BELOW */
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -177,7 +165,7 @@
 /* height controls the height of the grid 
 
 
-/* HEIGTH 
+/* HEIGTH  
 .height-2 {
 	grid-row: span 2;
 }
@@ -233,7 +221,7 @@
 }
 
 
-/* DESKTOP LAPTOP  
+/* DESKTOP LAPTOP 
 
 @media  (minimum- width :  700px)  {
 
@@ -287,6 +275,4 @@
 	}
 
 }
-
-
  */
