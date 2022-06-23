@@ -1,115 +1,151 @@
 /*stylesheet*/
-
-/* Here is my nice comment */
-
-/* GRID */
+/* G R I D */
 
 .grid {
-	display: grid;
-	grid grid-template-columns: repeat(12, 1fr);
-	position: relative;
-	grid grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  grid-gap: 2rem;
 }
 
-/* height controls the height of the grid  */
+/* H E I G H T */
 
-/* MOBLE */
-
-.width-1-12m {
-	grid-colum: span 1;
+.height-2 {
+	grid-row: span 2;
 }
 
-.width-2-12m {
-	grid-colum: span 2;
+.height-3 {
+	grid-row: span 3;
 }
 
-.width-3-12m {
-	grid-colum: span 3;
+/* M O B I L E */
+
+.width-1-12-m {
+  grid-column: span 1;
 }
 
-.width-4-12m {
-	grid-colum: span 4;
+.width-2-12-m {
+  grid-column: span 2;
 }
 
-.width-5-12m {
-	grid-colum: span 5;
+.width-3-12-m {
+  grid-column: span 3;
 }
 
-.width-6-12m {
-	grid-colum: span 6;
+.width-4-12-m {
+  grid-column: span 4;
 }
 
-.width-7-12m {
-	grid-colum: span 7;
+.width-5-12-m {
+  grid-column: span 5;
 }
 
-.width-8-12m {
-	grid-colum: span 8;
+.width-6-12-m {
+  grid-column: span 6;
 }
-.width-9-12m {
-	grid-colum: span 9;
+
+.width-7-12-m {
+  grid-column: span 7;
 }
-.width-10-12m {
-	grid-colum: span 10;
+
+.width-8-12-m {
+  grid-column: span 8;
 }
-.width-11-12m {
-	grid-colum: span 11;
+
+.width-9-12-m {
+  grid-column: span 9;
 }
-.width-12-12m {
-	grid-colum: span 12;
+
+.width-10-12-m {
+  grid-column: span 10;
+}
+
+.width-11-12-m {
+  grid-column: span 11;
+}
+
+.width-12-12-m {
+  grid-column: span 12;
+}
+
+/* D E S K T O P / L A P T O P */
+
+@media (min-width: 700px) {
+
+  .width-1-12 {
+    grid-column: span 1;
+  }
+
+  .width-2-12 {
+    grid-column: span 2;
+  }
+
+  .width-3-12 {
+    grid-column: span 3;
+  }
+
+  .width-4-12 {
+    grid-column: span 4;
+  }
+
+  .width-5-12 {
+    grid-column: span 5;
+  }
+
+  .width-6-12 {
+    grid-column: span 6;
+  }
+
+  .width-7-12 {
+    grid-column: span 7;
+  }
+
+  .width-8-12 {
+    grid-column: span 8;
+  }
+
+  .width-9-12 {
+    grid-column: span 9;
+  }
+
+  .width-10-12 {
+    grid-column: span 10;
+  }
+
+  .width-11-12 {
+    grid-column: span 11;
+  }
+
+  .width-12-12 {
+    grid-column: span 12;
+  }
+
 }
 
 
-/* DESKTOP LAPTOP */
 
-@media  (minimum- width :  700px)  {
 
-	.width-1-12 {
-	grid-column: span1;
-}
 
-.width-2-12 {
-grid-column: span 2;
-}
-.width-3-12 {
-grid-column: span 3;
-}
-.width-4-12 {
-grid-column: span 4;
 
-}
 
-.width-5-12 {
-grid-column: span 5;
 
-}
 
-.width-6-12 {
-grid-column: span 6;
-}
 
-.width-7-12 {
-grid-column: span 7;
-}
 
-.width-8-12 {
-grid-column: span 8;
-}
 
-.width-9-12 {
-grid-column: span 9;
-}
 
-.width-10-12 {
-grid-column: span 10;
-}
 
-.width-11-12 {
-grid-column: span 11;
-}
 
-.width-12-12 {
-grid-column: span 12;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
