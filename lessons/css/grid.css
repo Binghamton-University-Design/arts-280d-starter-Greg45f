@@ -1,6 +1,6 @@
 /*stylesheet*/
-/* GRID */
-/* G R I D 
+
+/* G R I D */
 
 .grid {
   display: grid;
@@ -9,7 +9,7 @@
   grid-gap: 2rem;
 }
 
-/* H E I G H T 
+/* H E I G H T */
 
 .height-2 {
 	grid-row: span 2;
@@ -19,7 +19,7 @@
 	grid-row: span 3;
 }
 
-/* M O B I L E 
+/* M O B I L E */
 
 .width-1-12-m {
   grid-column: span 1;
@@ -69,7 +69,7 @@
   grid-column: span 12;
 }
 
-/* D E S K T O P / L A P T O P *
+/* D E S K T O P / L A P T O P */
 
 @media (min-width: 700px) {
 
@@ -122,23 +122,62 @@
   }
 
 }
-*/
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MY GRID BELOW */
 .grid {
 	display: grid;
-	 grid-template-columns: repeat(12, 1fr);
+	grid-template-columns: repeat(12, 1fr);
 	position: relative;
 	grid grid-gap: 2rem;
 }
 
-/* height controls the height of the grid  */
+/* height controls the height of the grid 
 
 
-/* HEIGTH  */
+/* HEIGTH 
 .height-2 {
 	grid-row: span 2;
 }
@@ -147,9 +186,7 @@
 	grid-row: span 3;
 }
 
-
-
-/* MOBLE  */
+/* MOBLE  
 
 .width-1-12m {
 	grid-colum: span 1;
@@ -196,7 +233,7 @@
 }
 
 
-/* DESKTOP LAPTOP  */
+/* DESKTOP LAPTOP  
 
 @media  (minimum- width :  700px)  {
 
@@ -250,3 +287,6 @@
 	}
 
 }
+
+
+ */
