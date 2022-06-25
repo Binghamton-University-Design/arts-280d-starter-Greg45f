@@ -13,6 +13,9 @@ body {
   line-height: 1.5;
 }
 
+body {
+    background-color: #ffffff;
+}
 /*GENERAL*/
 
 h1, h2, h3, h4 {
