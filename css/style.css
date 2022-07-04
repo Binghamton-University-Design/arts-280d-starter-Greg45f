@@ -199,8 +199,21 @@ transition: text-decoration-color .3s ease-in-out;
 
 
 #intro img{
-margin-left: 3.5rem;
-height: 6rem;
+margin-left: 0.1rem;
+height: 12rem;
+width: auto;
+}
+
+#intro_about {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+
+
+#intro_about img{
+margin-right: 0.1rem;
+height: 18rem;
 width: auto;
 }
 
